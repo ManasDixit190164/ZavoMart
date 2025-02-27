@@ -12,6 +12,7 @@ This is a simple React Native application built with Expo that displays a list o
 - **Favorites**: Mark/unmark products as favorites (persisted with AsyncStorage).
 - **API Used**: Added API calls Fake Store API ( http://fakestoreapi.com/products ).
 - **App Config**: Added App configuration in json file.
+- **Testcases Added**: Added Testcases for ProductItem Card.
 
 ## Project Structure
 
