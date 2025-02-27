@@ -1,0 +1,16 @@
+{
+  "Homepage": {
+    "ScreenName": "HomeScreen",
+    "title": "Product Details",
+    "searchPlaceHolderText": "Search in ZavoMart",
+    "navIconName": "cart",
+    "navText": "ZavoMart"
+  },
+  "ProductDetailsScreen": {
+    "ScreenName": "ProductDetails",
+    "title": "Product Details",
+    "iconActiveName": "heart",
+    "iconInactiveName": "heart-o",
+    "ctaText":"Add to Cart"
+  }
+}
