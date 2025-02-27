@@ -10,7 +10,7 @@ This is a simple React Native application built with Expo that displays a list o
 - **Product Details Screen**: Shows detailed product information.
 - **Search**: Filter products by name.
 - **Favorites**: Mark/unmark products as favorites (persisted with AsyncStorage).
-- **API CAllS**: Added API calls Fake Store API ( http://fakestoreapi.com/products ).
+- **API Used**: Added API calls Fake Store API ( http://fakestoreapi.com/products ).
 - **App Config**: Added App configuration in json file.
 
 ## Project Structure
