@@ -1,7 +1,8 @@
 import React from "react";
 import { View, TextInput, StyleSheet, Text, StatusBar } from "react-native";
-import Icon from "react-native-vector-icons/Ionicons";
 import configData from "../configs/appConfig.json";
+import Icon  from "@expo/vector-icons/Ionicons";
+import { Ionicons, MaterialIcons } from "@expo/vector-icons";
 
 interface NavBarProps {
   query: string;
@@ -13,7 +14,7 @@ export const NavBar: React.FC<NavBarProps> = ({ query, onChangeText }) => {
     <View style={styles.container}>
       <StatusBar />
       <View style={styles.logo}>
-        <Icon name={configData.Homepage.navIconName} size={26} />
+        <Icon name={configData.Homepage.navIconName as keyof typeof Ionicons.glyphMap} size={26} />
         <Text style={styles.logoText}>{configData.Homepage.navText}</Text>
       </View>
       <TextInput
